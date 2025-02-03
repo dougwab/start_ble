@@ -1,0 +1,113 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/dabstack/esp/start_ble/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "main" version: 1
+-- Adding linker script /home/dabstack/esp/start_ble/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/dabstack/esp/start_ble/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /home/dabstack/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/dabstack/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/dabstack/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/dabstack/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/dabstack/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/dabstack/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/dabstack/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread rt sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/dabstack/esp/esp-idf/components/app_trace /home/dabstack/esp/esp-idf/components/app_update /home/dabstack/esp/esp-idf/components/bootloader /home/dabstack/esp/esp-idf/components/bootloader_support /home/dabstack/esp/esp-idf/components/bt /home/dabstack/esp/esp-idf/components/cmock /home/dabstack/esp/esp-idf/components/console /home/dabstack/esp/esp-idf/components/cxx /home/dabstack/esp/esp-idf/components/driver /home/dabstack/esp/esp-idf/components/efuse /home/dabstack/esp/esp-idf/components/esp-tls /home/dabstack/esp/esp-idf/components/esp_adc /home/dabstack/esp/esp-idf/components/esp_app_format /home/dabstack/esp/esp-idf/components/esp_bootloader_format /home/dabstack/esp/esp-idf/components/esp_coex /home/dabstack/esp/esp-idf/components/esp_common /home/dabstack/esp/esp-idf/components/esp_driver_ana_cmpr /home/dabstack/esp/esp-idf/components/esp_driver_cam /home/dabstack/esp/esp-idf/components/esp_driver_dac /home/dabstack/esp/esp-idf/components/esp_driver_gpio /home/dabstack/esp/esp-idf/components/esp_driver_gptimer /home/dabstack/esp/esp-idf/components/esp_driver_i2c /home/dabstack/esp/esp-idf/components/esp_driver_i2s /home/dabstack/esp/esp-idf/components/esp_driver_isp /home/dabstack/esp/esp-idf/components/esp_driver_jpeg /home/dabstack/esp/esp-idf/components/esp_driver_ledc /home/dabstack/esp/esp-idf/components/esp_driver_mcpwm /home/dabstack/esp/esp-idf/components/esp_driver_parlio /home/dabstack/esp/esp-idf/components/esp_driver_pcnt /home/dabstack/esp/esp-idf/components/esp_driver_ppa /home/dabstack/esp/esp-idf/components/esp_driver_rmt /home/dabstack/esp/esp-idf/components/esp_driver_sdio /home/dabstack/esp/esp-idf/components/esp_driver_sdm /home/dabstack/esp/esp-idf/components/esp_driver_sdmmc /home/dabstack/esp/esp-idf/components/esp_driver_sdspi /home/dabstack/esp/esp-idf/components/esp_driver_spi /home/dabstack/esp/esp-idf/components/esp_driver_touch_sens /home/dabstack/esp/esp-idf/components/esp_driver_tsens /home/dabstack/esp/esp-idf/components/esp_driver_uart /home/dabstack/esp/esp-idf/components/esp_driver_usb_serial_jtag /home/dabstack/esp/esp-idf/components/esp_eth /home/dabstack/esp/esp-idf/components/esp_event /home/dabstack/esp/esp-idf/components/esp_gdbstub /home/dabstack/esp/esp-idf/components/esp_hid /home/dabstack/esp/esp-idf/components/esp_http_client /home/dabstack/esp/esp-idf/components/esp_http_server /home/dabstack/esp/esp-idf/components/esp_https_ota /home/dabstack/esp/esp-idf/components/esp_https_server /home/dabstack/esp/esp-idf/components/esp_hw_support /home/dabstack/esp/esp-idf/components/esp_lcd /home/dabstack/esp/esp-idf/components/esp_local_ctrl /home/dabstack/esp/esp-idf/components/esp_mm /home/dabstack/esp/esp-idf/components/esp_netif /home/dabstack/esp/esp-idf/components/esp_netif_stack /home/dabstack/esp/esp-idf/components/esp_partition /home/dabstack/esp/esp-idf/components/esp_phy /home/dabstack/esp/esp-idf/components/esp_pm /home/dabstack/esp/esp-idf/components/esp_psram /home/dabstack/esp/esp-idf/components/esp_ringbuf /home/dabstack/esp/esp-idf/components/esp_rom /home/dabstack/esp/esp-idf/components/esp_security /home/dabstack/esp/esp-idf/components/esp_system /home/dabstack/esp/esp-idf/components/esp_timer /home/dabstack/esp/esp-idf/components/esp_vfs_console /home/dabstack/esp/esp-idf/components/esp_wifi /home/dabstack/esp/esp-idf/components/espcoredump /home/dabstack/esp/esp-idf/components/esptool_py /home/dabstack/esp/esp-idf/components/fatfs /home/dabstack/esp/esp-idf/components/freertos /home/dabstack/esp/esp-idf/components/hal /home/dabstack/esp/esp-idf/components/heap /home/dabstack/esp/esp-idf/components/http_parser /home/dabstack/esp/esp-idf/components/idf_test /home/dabstack/esp/esp-idf/components/ieee802154 /home/dabstack/esp/esp-idf/components/json /home/dabstack/esp/esp-idf/components/log /home/dabstack/esp/esp-idf/components/lwip /home/dabstack/esp/start_ble/main /home/dabstack/esp/esp-idf/components/mbedtls /home/dabstack/esp/esp-idf/components/mqtt /home/dabstack/esp/esp-idf/components/newlib /home/dabstack/esp/esp-idf/components/nvs_flash /home/dabstack/esp/esp-idf/components/nvs_sec_provider /home/dabstack/esp/esp-idf/components/openthread /home/dabstack/esp/esp-idf/components/partition_table /home/dabstack/esp/esp-idf/components/perfmon /home/dabstack/esp/esp-idf/components/protobuf-c /home/dabstack/esp/esp-idf/components/protocomm /home/dabstack/esp/esp-idf/components/pthread /home/dabstack/esp/esp-idf/components/rt /home/dabstack/esp/esp-idf/components/sdmmc /home/dabstack/esp/esp-idf/components/soc /home/dabstack/esp/esp-idf/components/spi_flash /home/dabstack/esp/esp-idf/components/spiffs /home/dabstack/esp/esp-idf/components/tcp_transport /home/dabstack/esp/esp-idf/components/ulp /home/dabstack/esp/esp-idf/components/unity /home/dabstack/esp/esp-idf/components/usb /home/dabstack/esp/esp-idf/components/vfs /home/dabstack/esp/esp-idf/components/wear_levelling /home/dabstack/esp/esp-idf/components/wifi_provisioning /home/dabstack/esp/esp-idf/components/wpa_supplicant /home/dabstack/esp/esp-idf/components/xtensa
+-- Configuring done (7.5s)
+-- Generating done (1.0s)
+-- Build files have been written to: /home/dabstack/esp/start_ble/build
+[1/8] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/dabstack/esp/start_ble/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Adding linker script /home/dabstack/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script /home/dabstack/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/dabstack/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/dabstack/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/dabstack/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/dabstack/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script /home/dabstack/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_security esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/dabstack/esp/esp-idf/components/bootloader /home/dabstack/esp/esp-idf/components/bootloader_support /home/dabstack/esp/esp-idf/components/efuse /home/dabstack/esp/esp-idf/components/esp_app_format /home/dabstack/esp/esp-idf/components/esp_bootloader_format /home/dabstack/esp/esp-idf/components/esp_common /home/dabstack/esp/esp-idf/components/esp_hw_support /home/dabstack/esp/esp-idf/components/esp_rom /home/dabstack/esp/esp-idf/components/esp_security /home/dabstack/esp/esp-idf/components/esp_system /home/dabstack/esp/esp-idf/components/esptool_py /home/dabstack/esp/esp-idf/components/freertos /home/dabstack/esp/esp-idf/components/hal /home/dabstack/esp/esp-idf/components/log /home/dabstack/esp/esp-idf/components/bootloader/subproject/main /home/dabstack/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/dabstack/esp/esp-idf/components/newlib /home/dabstack/esp/esp-idf/components/partition_table /home/dabstack/esp/esp-idf/components/soc /home/dabstack/esp/esp-idf/components/spi_flash /home/dabstack/esp/esp-idf/components/xtensa
+-- Configuring done (3.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/dabstack/esp/start_ble/build/bootloader
+[1/1] cd /home/dabstack/esp/start_ble/build/bootloader/esp-idf/esptool_py && /home/dabstack/.espressif/python_env/idf5.4_py3.12_env/bin/python /home/dabstack/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/dabstack/esp/start_ble/build/bootloader/bootloader.bin
+Bootloader binary size 0x6560 bytes. 0xaa0 bytes (9%) free.
+[2/8] No install step for 'bootloader'
+[3/8] Completed 'bootloader'
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable main.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/dabstack/esp/start_ble/build/main.bin
+[7/8] cd /home/dabstack/esp/start_ble/build/esp-idf/esptool_py && /home/dabstack/.espressif/python_env/idf5.4_py3.12_env/bin/python /home/dabstack/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/dabstack/esp/start_ble/build/partition_table/partition-table.bin /home/dabstack/esp/start_ble/build/main.bin
+main.bin binary size 0xb6500 bytes. Smallest app partition is 0x100000 bytes. 0x49b00 bytes (29%) free.
+[7/8] cd /home/dabstack/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/dabstack/esp/esp-idf -D "SERIAL_TOOL=/home/dabstack/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/home/dabstack/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/dabstack/esp/start_ble/build -P /home/dabstack/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 main.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port /dev/ttyUSB0
+Connecting.....
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: f0:08:d1:c8:db:9c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000c6fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 25952 bytes to 16368...
+Writing at 0x00001000... (100 %)
+Wrote 25952 bytes (16368 compressed) at 0x00001000 in 0.8 seconds (effective 272.9 kbit/s)...
+Hash of data verified.
+Compressed 746752 bytes to 434624...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001d880... (7 %)
+Writing at 0x00029e60... (11 %)
+Writing at 0x00033279... (14 %)
+Writing at 0x00038e49... (18 %)
+Writing at 0x0003ee35... (22 %)
+Writing at 0x00044b88... (25 %)
+Writing at 0x0004a8e4... (29 %)
+Writing at 0x000507ac... (33 %)
+Writing at 0x00056541... (37 %)
+Writing at 0x0005d10d... (40 %)
+Writing at 0x000635e4... (44 %)
+Writing at 0x00069c2b... (48 %)
+Writing at 0x0006faf1... (51 %)
+Writing at 0x00075b1a... (55 %)
+Writing at 0x0007ba19... (59 %)
+Writing at 0x00081538... (62 %)
+Writing at 0x00086f38... (66 %)
+Writing at 0x0008d06b... (70 %)
+Writing at 0x000933f4... (74 %)
+Writing at 0x0009a075... (77 %)
+Writing at 0x000a34a3... (81 %)
+Writing at 0x000aa319... (85 %)
+Writing at 0x000b1b24... (88 %)
+Writing at 0x000b7531... (92 %)
+Writing at 0x000bcdad... (96 %)
+Writing at 0x000c3239... (100 %)
+Wrote 746752 bytes (434624 compressed) at 0x00010000 in 9.9 seconds (effective 601.6 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 415.0 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
