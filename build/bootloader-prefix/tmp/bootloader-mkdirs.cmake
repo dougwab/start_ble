@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/home/dabstack/esp/esp-idf/components/bootloader/subproject"
-  "/home/dabstack/esp/start_ble/build/bootloader"
-  "/home/dabstack/esp/start_ble/build/bootloader-prefix"
-  "/home/dabstack/esp/start_ble/build/bootloader-prefix/tmp"
-  "/home/dabstack/esp/start_ble/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/dabstack/esp/start_ble/build/bootloader-prefix/src"
-  "/home/dabstack/esp/start_ble/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/dabstack/git/start_ble/build/bootloader"
+  "/home/dabstack/git/start_ble/build/bootloader-prefix"
+  "/home/dabstack/git/start_ble/build/bootloader-prefix/tmp"
+  "/home/dabstack/git/start_ble/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/dabstack/git/start_ble/build/bootloader-prefix/src"
+  "/home/dabstack/git/start_ble/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/dabstack/esp/start_ble/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/dabstack/git/start_ble/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/dabstack/esp/start_ble/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/dabstack/git/start_ble/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -10,8 +10,8 @@
 #include "esp_bt_defs.h"
 
 #define TAG "BLE_CLIENT"
-#define TARGET_DEVICE_NAME "ITC 211 K218357"
-#define PIN_CODE "218357"
+#define TARGET_DEVICE_NAME ""
+#define PIN_CODE ""
 
 static esp_ble_scan_params_t ble_scan_params = {
     .scan_type = BLE_SCAN_TYPE_ACTIVE,
