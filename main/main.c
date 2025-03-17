@@ -1,3 +1,5 @@
+/*Programa para realizar varredura de gatts dentro de dispositivos ble*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
